@@ -109,7 +109,7 @@ h4, p, q, small, nav, button, form {
     top: 2rem;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 43.5vw;
+    width: 50vw;
 }
 nav ul {
     padding: 0;
@@ -140,7 +140,8 @@ nav label {
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    padding: 1rem;
+    align-content: center;
+    height: 3rem;
     text-transform: uppercase;
     font-weight: bold;
 }
