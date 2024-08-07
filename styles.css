@@ -328,6 +328,7 @@ form {
 input, label, fieldset {
 	display: block;
 	width: 100%;
+    border-radius: 0;
 }
 select {
     appearance: none;
