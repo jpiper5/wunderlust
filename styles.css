@@ -342,6 +342,7 @@ select {
     cursor: pointer;
     background-color: transparent;
     color: var(--dark-gray);
+    border-radius: 0;
 }
 .custom-select {
     border-radius: 0.25em;
@@ -397,6 +398,7 @@ input[type=submit] {
 	background-color: var(--purple);
 	border: none;
     text-transform: uppercase;
+    border-radius: 0;
 }
 #contact input:focus {
     border-color: var(--teal);
