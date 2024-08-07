@@ -280,13 +280,14 @@ q:before, q:after {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 1rem 3.5rem;
+    padding: 1rem 0;
 }
 #about section {
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
     align-items: center;
+    justify-content: center;
 }
 #about h3 {
     padding-left: 2rem;
@@ -294,6 +295,7 @@ q:before, q:after {
 }
 #about img {
     height: 50%;
+    width: 50%;
 }
 #about h4 {
     font-weight: bold;
