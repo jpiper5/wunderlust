@@ -340,6 +340,7 @@ select {
     height: 3.7em;
     cursor: pointer;
     background-color: transparent;
+    color: var(--dark-gray);
 }
 .custom-select {
     border-radius: 0.25em;
@@ -416,6 +417,7 @@ fieldset label {
     text-transform: capitalize;
     font-weight: 400;
     color: var(--dark-gray);
+    padding-left: 0.5rem;
 }
 input[type="radio"] {
     appearance: none;
@@ -625,9 +627,6 @@ footer a {
     }
     #contact fieldset label {
         margin: 0;
-    }
-    .radio-label {
-        padding-left: 0.5rem;
     }
     #selects {
         display: grid;
